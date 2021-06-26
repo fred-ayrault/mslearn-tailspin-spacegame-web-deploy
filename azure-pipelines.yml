@@ -15,7 +15,7 @@ stages:
       - npm
     variables:
       wwwrootDir: Tailspin.SpaceGame.Web/wwwroot
-      dotnetSdkVersion: 5.1.301
+      dotnetSdkVersion: 5.0.301
     steps:
     - task: UseDotNet@2
       displayName: Use .NET Core SDK $(dotnetSdkVersion)
